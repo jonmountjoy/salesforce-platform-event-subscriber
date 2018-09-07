@@ -1,15 +1,14 @@
 {
-  "name": "northern-trail-manufacturing",
+  "name": "salesforce-platform-event-subscriber",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "author": "Christophe Coenraets <ccoenraets@gmail.com> (http://coenraets.org/)",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.3",
     "express": "^4.15.3",
     "faye": "^1.2.4",
-    "nforce": "^1.7.0",
+    "nforce": "^1.10.0",
     "nforce-metadata": "^1.1",
     "socket.io": "^2.0.1"
   }

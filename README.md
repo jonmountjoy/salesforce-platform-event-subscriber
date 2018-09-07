@@ -13,6 +13,10 @@ Follow the instructions below to deploy your own instance of the application:
     - Optionally set **REDIRECT_URL** to the URL of the app itself
 2. Create a Connected App in Salesforce, with OAuth pointing to this app's URL like so `http://localhost:7000/oauth/_callback`
 
+If you don't want to set the REDIRECT_URL, do this:
+
+    heroku labs:enable runtime-dyno-metadata
+
 ## Local Development
 
 For local development, set **REDIRECT_URL** to something like `http://localhost:7000/oauth/_callback` and then run the app with:
@@ -21,8 +25,8 @@ For local development, set **REDIRECT_URL** to something like `http://localhost:
 
 ## TODO
 
-[ ] Show the names of all the events we're actually subscribed to.
-[ ] Dynamically subscribe to new event types?
+- [ ] Show the names of all the events we're actually subscribed to.
+- [ ] Dynamically subscribe to new event types?
 
 ## Based on
 
